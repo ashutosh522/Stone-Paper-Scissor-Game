@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-image: url('../istockphoto-507296872-612x612.jpg');
+  background-image: url('../abstract-colorful-geometric-shape-background-modern-color-background-for-your-website-vector.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -19,7 +19,7 @@ body {
 /* App Container */
 .app {
   text-align: center;
-  background-color: white;
+  background-color: rgb(227, 221, 210);
   padding: 40px;
   border-radius: 15px;
   width: 100%;
@@ -41,7 +41,7 @@ h1 {
 }
 
 button {
-  background-color: black;
+  background-color: #726e6e;
   color: white;
   padding: 8px 15px;
   font-size: 1.2rem;
@@ -52,7 +52,7 @@ button {
 }
 
 button:hover {
-  background-color:#726e6e;
+  background-color: mediumaquamarine;
 }
 
 button:focus {
@@ -79,7 +79,9 @@ button:focus {
 /* Scorecard Styling */
 .scorecard {
  
-  background-color:white;
+  background-image: url('../abstract-colorful-geometric-shape-background-modern-color-background-for-your-website-vector.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 10px;
   padding: 20px;
   margin-top: 20px;
@@ -90,11 +92,11 @@ button:focus {
 .scorecard h2 {
   font-size: 1.8rem;
   margin-bottom: 10px;
-  color: black;
+  color: white;
 }
 
 .scorecard p {
   font-size: 1.2rem;
   margin: 5px 0;
-  color: black;
+  color: white;
 }
