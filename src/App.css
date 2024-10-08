@@ -1,0 +1,100 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('../istockphoto-507296872-612x612.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* App Container */
+.app {
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 400px;
+  border: 2px solid black;
+}
+
+h1 {
+  font-size: 2.0rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.game-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 8px 15px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color:#726e6e;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Result Section */
+.results {
+  margin-top: 20px;
+}
+
+.results p {
+  font-size: 1.2rem;
+  color: black;
+  margin: 10px 0;
+}
+
+.result-message {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+/* Scorecard Styling */
+.scorecard {
+ 
+  background-color:white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  
+  
+}
+
+.scorecard h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.scorecard p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  color: black;
+}
